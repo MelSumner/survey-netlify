@@ -1,11 +1,10 @@
 {{page-title '2022 Survey'}}
 
 <form
-  class='space-y-8 divide-y divide-gray-200'
+  class='space-y-8'
   name='survey-22'
   method='POST'
   data-netlify='true'
-  netlify
 >
   <div>
     <label
@@ -24,6 +23,23 @@
     </div>
     <p class='mt-2 text-sm text-gray-500' id='email-description'>We'll only use
       this to follow up on the survey results.</p>
+  </div>
+
+  <div>
+    <label
+      for='location'
+      class='block text-sm font-medium text-gray-700'
+    >How long have you been using the framework?</label>
+    <select
+      id='location'
+      name='location'
+      class='mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md'
+    >
+      <option>Less than a year</option>
+      <option>1-3 years</option>
+      <option>5-7 years</option>
+      <option>7-10 years</option>
+    </select>
   </div>
 
   <div class='pt-5'>

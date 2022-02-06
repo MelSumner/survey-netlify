@@ -1,12 +1,15 @@
-{{page-title "Survey Netlify"}}
+{{page-title 'Survey Netlify'}}
 
-<header>
-    <h1>Community Survey</h1>
-</header>
-<main>
+<div class='min-h-full'>
+  <SnHeader />
 
-{{outlet}}
-</main>
-<footer>
-    <p>Footer Copy</p>
-</footer>
+  <main class='-mt-32'>
+    <div class='max-w-7xl mx-auto pb-12 px-4 sm:px-6 lg:px-8'>
+      <div class='bg-white rounded-lg shadow px-5 py-6 sm:px-6'>
+        {{outlet}}
+      </div>
+    </div>
+  </main>
+
+  <SnFooter />
+</div>

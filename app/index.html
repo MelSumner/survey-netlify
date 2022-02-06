@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full bg-gray-100">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +9,13 @@
 
     {{content-for "head"}}
 
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/tailwind.css">
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/survey-netlify.css">
 
     {{content-for "head-footer"}}
   </head>
-  <body>
+  <body class="h-full">
     {{content-for "body"}}
 
     <script src="{{rootURL}}assets/vendor.js"></script>

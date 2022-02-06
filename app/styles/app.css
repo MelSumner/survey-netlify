@@ -6,3 +6,6 @@
 main {
     min-height: 100vh;
 }
+button[type="submit"] {
+    @apply bg-indigo-600;
+}

@@ -7,7 +7,7 @@ I'm trying Ember + Netlify Forms. Will it work? Let's find out.
 ## Steps so far
 
 - added [prember](https://github.com/ef4/prember) and [ember-cli-fastboot](https://github.com/ember-fastboot/ember-cli-fastboot)
-- used the version of fastboot that is compat with Ember v4+ (in this case, [v3.2.0-beta.5](https://github.com/ember-fastboot/ember-cli-fastboot/releases/tag/v3.2.0-beta.5)
+- used the version of fastboot that is compat with Ember v4+ (in this case, [v3.2.0-beta.5](https://github.com/ember-fastboot/ember-cli-fastboot/releases/tag/v3.2.0-beta.5))
 - ensured forms were being detected in the Netlify build log: 
   - <br>![image](https://user-images.githubusercontent.com/4587451/152862713-712ddb5b-cbe8-4bc3-a2b9-85efea0bc6c5.png)
 - added `/success` page 

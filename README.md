@@ -14,4 +14,4 @@ I'm trying Ember + Netlify Forms. Will it work? Let's find out.
 
 It's currently still not working- filling out the form and pressing submit gives a "page not found" error.
 
-If I manually navigate to /success it is there (although the image I added to that page does _not_ show up), so not sure what is going on just yet.
+If I manually navigate to [/success](https://ember-test-survey.netlify.app/success/) it is there (although the image I added to that page does _not_ show up), so not sure what is going on just yet.

@@ -21,7 +21,7 @@ module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
     // Add options here
     prember: {
-      urls: ['/', '/success', '/not_found'],
+      urls: ['/', '/success'],
     },
     postcssOptions: {
       compile: {

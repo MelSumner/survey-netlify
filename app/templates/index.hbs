@@ -7,6 +7,14 @@
   method='POST'
   data-netlify='true'
 >
+  {{!-- Because this site is statily generated with fastboot / preember, then re-hydrated with ember we need to profide this hidden form name so netlify
+        doesn't have to.
+        See:  https://www.netlify.com/blog/2017/07/20/how-to-integrate-netlifys-form-handling-in-a-react-app/?_ga=2.229357980.1617473142.1644320442-1255373435.1644320442#form-handling-with-static-site-generators
+
+        Without this the hidden form field that netlify gets skipped away when the ember ui re-hydrates and doesn't get passed along when the form is submitted
+        resulting in a 404.
+  --}}
+
 <input type='hidden' name='form-name' value='survey-22' aria-label="leave this one alone it is just for netlify" />
   <div>
     <label

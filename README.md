@@ -14,15 +14,13 @@ I'm trying Ember + [Netlify Forms](https://docs.netlify.com/forms/setup/). Will 
   - added this to the prember list in `ember-cli-build.js` 
   - added this to the `action` attribute value on the `form` in the `index.hbs` template file
 - used [ember-cli-netlify](https://github.com/shipshapecode/ember-cli-netlify) and added `.netlifyredirects` file
+- **essential step:** Netlify adds a hidden field but fastboot gets in there and regenerates the page, which takes out the hidden field that Netlify added. So add it to the form markup, right inside the `<form>` element: `<input type='hidden' name='form-name' value='survey-22' aria-label="leave this one alone it is just for netlify" />`
+
 
 ## Current Status
 
-It's currently still not working, but I'm unsure why.
-
+It works!!
 - ✅ the [site loads](https://ember-test-survey.netlify.app/)
-- ❌ filling out the form and pressing submit gives a "page not found" error.
+- ✅ filling out the form and pressing submit gives a "page not found" error.
 - ✅ manually navigating to [/success](https://ember-test-survey.netlify.app/success/) works
-- ❌ images on the `/success` page do _not_ show up
-
-
-![image](https://user-images.githubusercontent.com/4587451/153003026-a2a8560e-cf60-4a77-9822-ba8ebf6290c6.png)
+- ✅ images on the `/success` page show up

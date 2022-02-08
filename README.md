@@ -23,3 +23,6 @@ It's currently still not working, but I'm unsure why.
 - ❌ filling out the form and pressing submit gives a "page not found" error.
 - ✅ manually navigating to [/success](https://ember-test-survey.netlify.app/success/) works
 - ❌ images on the `/success` page do _not_ show up
+
+
+![image](https://user-images.githubusercontent.com/4587451/153003026-a2a8560e-cf60-4a77-9822-ba8ebf6290c6.png)

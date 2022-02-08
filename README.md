@@ -17,8 +17,9 @@ I'm trying Ember + [Netlify Forms](https://docs.netlify.com/forms/setup/). Will 
 
 ## Current Status
 
-It's currently still not working:
+It's currently still not working, but I'm unsure why.
 
-- filling out the form and pressing submit gives a "page not found" error.
-- manually navigating to [/success](https://ember-test-survey.netlify.app/success/) works
-- the image I added to that page does _not_ show up
+- ✅ the [site loads](https://ember-test-survey.netlify.app/)
+- ❌ filling out the form and pressing submit gives a "page not found" error.
+- ✅ manually navigating to [/success](https://ember-test-survey.netlify.app/success/) works
+- ❌ images on the `/success` page do _not_ show up

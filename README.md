@@ -20,7 +20,3 @@ I'm trying Ember + [Netlify Forms](https://docs.netlify.com/forms/setup/). Will 
 ## Current Status
 
 It works!!
-- ✅ the [site loads](https://ember-test-survey.netlify.app/)
-- ✅ filling out the form and pressing submit gives a "page not found" error.
-- ✅ manually navigating to [/success](https://ember-test-survey.netlify.app/success/) works
-- ✅ images on the `/success` page show up
